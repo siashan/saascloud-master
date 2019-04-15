@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.han.saascloud.provider.mapper.UacUserTokenMapper">
+  <resultMap id="BaseResultMap" type="com.han.saascloud.provider.model.domain.UacUserToken">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="REAL_NAME" jdbcType="VARCHAR" property="realName" />
+    <result column="SALT" jdbcType="VARCHAR" property="salt" />
+    <result column="GENDER" jdbcType="VARCHAR" property="gender" />
+    <result column="PASSWORD" jdbcType="VARCHAR" property="password" />
+    <result column="PHONE_NO" jdbcType="VARCHAR" property="phoneNo" />
+    <result column="EMAIL" jdbcType="VARCHAR" property="email" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="LAST_LOGIN_DATE" jdbcType="TIMESTAMP" property="lastLoginDate" />
+    <result column="OPEN_ID" jdbcType="VARCHAR" property="openId" />
+    <result column="WECHAT_ATTENTION_STATUS" jdbcType="VARCHAR" property="wechatAttentionStatus" />
+    <result column="DEPT_ID" jdbcType="INTEGER" property="deptId" />
+    <result column="EXT1" jdbcType="VARCHAR" property="ext1" />
+    <result column="EXT2" jdbcType="VARCHAR" property="ext2" />
+    <result column="EXT3" jdbcType="VARCHAR" property="ext3" />
+    <result column="STATUS" jdbcType="VARCHAR" property="status" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="USER_TYPE" jdbcType="VARCHAR" property="userType" />
+    <result column="CER_ID" jdbcType="DECIMAL" property="cerId" />
+    <result column="IS_PASSWORD_CHANGED" jdbcType="VARCHAR" property="isPasswordChanged" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.paascloud.provider.model.domain.UacUserToken">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="REAL_NAME" jdbcType="VARCHAR" property="realName" />
+    <result column="SALT" jdbcType="VARCHAR" property="salt" />
+    <result column="GENDER" jdbcType="VARCHAR" property="gender" />
+    <result column="PASSWORD" jdbcType="VARCHAR" property="password" />
+    <result column="PHONE_NO" jdbcType="VARCHAR" property="phoneNo" />
+    <result column="EMAIL" jdbcType="VARCHAR" property="email" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="LAST_LOGIN_DATE" jdbcType="TIMESTAMP" property="lastLoginDate" />
+    <result column="OPEN_ID" jdbcType="VARCHAR" property="openId" />
+    <result column="WECHAT_ATTENTION_STATUS" jdbcType="VARCHAR" property="wechatAttentionStatus" />
+    <result column="DEPT_ID" jdbcType="INTEGER" property="deptId" />
+    <result column="EXT1" jdbcType="VARCHAR" property="ext1" />
+    <result column="EXT2" jdbcType="VARCHAR" property="ext2" />
+    <result column="EXT3" jdbcType="VARCHAR" property="ext3" />
+    <result column="STATUS" jdbcType="VARCHAR" property="status" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="USER_TYPE" jdbcType="VARCHAR" property="userType" />
+    <result column="CER_ID" jdbcType="DECIMAL" property="cerId" />
+    <result column="IS_PASSWORD_CHANGED" jdbcType="VARCHAR" property="isPasswordChanged" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.paascloud.provider.model.domain.UacUserToken">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="REAL_NAME" jdbcType="VARCHAR" property="realName" />
+    <result column="SALT" jdbcType="VARCHAR" property="salt" />
+    <result column="GENDER" jdbcType="VARCHAR" property="gender" />
+    <result column="PASSWORD" jdbcType="VARCHAR" property="password" />
+    <result column="PHONE_NO" jdbcType="VARCHAR" property="phoneNo" />
+    <result column="EMAIL" jdbcType="VARCHAR" property="email" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="LAST_LOGIN_DATE" jdbcType="TIMESTAMP" property="lastLoginDate" />
+    <result column="OPEN_ID" jdbcType="VARCHAR" property="openId" />
+    <result column="WECHAT_ATTENTION_STATUS" jdbcType="VARCHAR" property="wechatAttentionStatus" />
+    <result column="DEPT_ID" jdbcType="INTEGER" property="deptId" />
+    <result column="EXT1" jdbcType="VARCHAR" property="ext1" />
+    <result column="EXT2" jdbcType="VARCHAR" property="ext2" />
+    <result column="EXT3" jdbcType="VARCHAR" property="ext3" />
+    <result column="STATUS" jdbcType="VARCHAR" property="status" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="USER_TYPE" jdbcType="VARCHAR" property="userType" />
+    <result column="CER_ID" jdbcType="DECIMAL" property="cerId" />
+    <result column="IS_PASSWORD_CHANGED" jdbcType="VARCHAR" property="isPasswordChanged" />
+  </resultMap>
+</mapper>
